@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" href="" />
+    <link href="stylee.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form action="destination.html">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nom:</span>
+                    <input class="form-control" type="text" placeholder="Entrer votre nom" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Prénom:</span>
+                    <input class="form-control" type="text" placeholder="Entrer votre Prénom" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Age:</span>
+                    <input class="form-control" type="number" placeholder="Entrer votre Age" min="4" max="29" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Téléphone:</span>
+                    <input class="form-control" type="text" placeholder="Entrer votre numero du téléphone" Maxlength="8" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email:</span>
+                    <input class="form-control" type="email" placeholder="Entrer votre email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Nouveau Mot de passe:<font color="red">*</font></span>
+                    <input class="form-control" type="password" placeholder="Entrer votre mot de passe" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirmer Mot de passe:</span>
+                    <input class="form-control" type="password" placeholder="Confirmer votre mot de passe" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <input class="form-control" type="radio" name="gender" id="dot-1">
+                <input class="form-control" type="radio" name="gender" id="dot-2">
+                <span class="form-control" class="gender-title">Genre:</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <spna class="dot one"></spna>
+                        <spna class="form-control" class="gender">Homme</spna>
+                    </label>
+                    <label for="dot-2">
+                        <spna class="dot two"></spna>
+                        <spna class="form-control" class="gender">Femme</spna>
+                    </label>
+                </div>                   
+            </div>
+            <div class="button">
+                <input class="form-control" type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
